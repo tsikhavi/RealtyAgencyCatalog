@@ -6,7 +6,7 @@ import Link from 'next/link'
 import MegaMenu from '@/Components/MegaMenu'
 import SearchMenu from '@/Components/SearchMenu'
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
