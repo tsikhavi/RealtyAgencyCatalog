@@ -110,7 +110,7 @@ export default function Navigation(){
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <Link
-            className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+            className="rounded-md bg-teal-500 px-5 py-2.5 text-sm font-medium text-white shadow"
             href="/"
           >
             Продать

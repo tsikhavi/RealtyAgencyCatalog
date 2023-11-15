@@ -7,13 +7,13 @@ export default function SearchMenu(){
       
         <header className="bg-white">
   
-  <nav className="flex items-center justify-between bg-gray-200 p-4">
+  <nav className="flex items-center justify-between bg-gray-100 p-4">
   <div className="flex items-center">
-    <Image src="/next.svg" alt="Logo" className="h-8 w-8 mr-4" width={10} height={10}/>
-    <h1 className="text-xl font-bold whitespace-nowrap">Realty Agency Catalog</h1>
+    <Image src="/logo-r.png" alt="Logo" className=" mr-4" width={36} height={36}/>
+    <h1 className="text-xl font-bold font-italics whitespace-nowrap">Realty Agency Catalog</h1>
   </div>
   <div className="flex items-center">
-    <p className="text-orange-800 text-xl font-bold font-roboto-sans">+7-999-888-7777</p>
+    <p className="text-orange-800 text-xl font-bold font-roboto-sans">8-999-888-7777</p>
   </div>
   <div className="flex items-center">
   
@@ -25,11 +25,16 @@ export default function SearchMenu(){
   </svg>
   </div>
   <div className="flex items-center">
+      <button className="px-4 py-2 bg-gray-100 rounded-md">
+      <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-400 w-6 h-6 hover:text-red-600" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/>
+      </svg>
+      </button>
     
-    <button className="px-4 py-2 bg-gray-200 text-white rounded-md">
+    <button className="px-4 py-2 bg-gray-100 text-white rounded-md">
     
-    <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-500 w-8 h-8 p-1 flex-inline" viewBox="0 0 512 512">
-      <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-400 w-8 h-8 p-1 flex-inline hover:text-blue-600" viewBox="0 0 512 512">
+      <path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
     </svg>
     </button>
   </div>
